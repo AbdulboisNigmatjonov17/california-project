@@ -32,3 +32,4 @@ const FooterData = [
         li4: '',
     },
 ]
+export default FooterData
