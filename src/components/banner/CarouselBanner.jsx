@@ -24,11 +24,12 @@ export default function CarouselBanner() {
     };
 
     return (
-        <Carousel className="w-full" 
-        responsive={responsive}
-        infinite={true}
-        showDots={true}
+        <Carousel className="w-full"
+            responsive={responsive}
+            infinite={true}
+            showDots={true}
         >
+            <MainBanner />
             <MainBanner />
             <MainBanner />
         </Carousel>

@@ -1,4 +1,4 @@
-import { iPad, iPhone, iWatch, macBook } from '../../assets/products-banner/index'
+import { iPad, iPhone, iWatch, macBook } from '../../../assets/products-banner/index'
 import './ProductsBanner.css'
 export default function ProductsBanner() {
     return (
