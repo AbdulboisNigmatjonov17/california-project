@@ -4,7 +4,7 @@ import { ArrowOutward } from '@mui/icons-material'
 export default function BookBanner() {
     return (
         <div className='pt-10 flex flex-col items-center'>
-            <div className='w-full flex justify-between'>
+            <div className='w-full flex justify-between gap-5'>
                 <div className='w-[50%]'>
                     <img src={Book} alt="" />
                 </div>
